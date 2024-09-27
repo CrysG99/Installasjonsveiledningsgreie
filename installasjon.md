@@ -1,7 +1,6 @@
 # Oppsetning av Operativsystem og Program på Rasberry Pi
 
 
-
 ## OBS: Pass på at cmd i windows og terminalen i linux bruker noen ulike kommandoer
 
 
@@ -53,7 +52,7 @@ sudo mysql_secure_installation (Installerer mysql på pi-en)
 ```
 ## 6. Lage bruker i MariaDB
 ```
-* *sudo mariadb -u root* (åpner MariaDB i terminalen)
+* sudo mariadb -u root (åpner MariaDB i terminalen)
 **OBS: Husk at alle kommandoer slutter med ";" i mariadb**
 
 * CREATE USER 'username@localhost' IDENTIFIED BY 'password'; (bytt utt username med ditt brukernavn og password med ditt eget passord)
@@ -80,6 +79,8 @@ For å koble til med ssh fra laptop til pi-en skriver du i terminalen:
 * `ssh brukernavn@ip`
 
 (Bytt ut brukernavn med ditt eget brukernavn og ip med raspberry pi-en sin ip adresse)
+
+Hvis du vil skru av Pi-en, skriv `sudo shutdown now`i terminalen og vent et par sekunder før du tar strømmen.
 
 ## 9. Ekstra
 
