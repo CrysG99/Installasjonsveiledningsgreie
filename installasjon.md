@@ -6,11 +6,12 @@
 
 
 ## 1. Last ned Raspberry Pi imager på pc-en din og putt inn sd kortet.
+* a. Last ned Raspberry Pi imager her: https://www.raspberrypi.com/software/
+* b. Velg din raspberry pi device
+* c. Velg ønsket operativsystem (Linux Ubuntu Desktop i vårt tilfelle)
+* d. Velg sd kortet som er inne i pc-en og trykk "next"
 
-    a. Velg din raspberry pi device
-    b. Velg ønsket operativsystem (Linux Ubuntu Desktop i vårt tilfelle)
-    c. Velg sd kortet som er inne i pc-en og trykk "next"
-
+### (Hvis du allerede har Linux Ubuntu installert på sd kortet kan du hoppe over dette steget)
 
 ## 2. Sett inn sd-kortet i Rasberry Pi-en og begynn installering
 
@@ -38,7 +39,7 @@ sudo apt install openssh-server (installer SSH-serveren)
 sudo systemctl enable ssh (gjør sånn at SSH skrur seg på ved oppstart)
 sudo systemctl start ssh (starter SSH med en gang)
 ```
-* For å koble til pi-en via pc, åpne CMD i windows med Windows + R og skriv 'cmd' på pi-en skriver du `ip a` og let etter en IP-adresse som begynner med 10.2.1.x eller noe lignende (x skal være et nummer mellom 2 og 254)
+* For å koble til pi-en via pc, åpne CMD i windows med Windows + R og skriv `cmd`, på pi-en skriver du `ip a` og let etter en IP-adresse som begynner med 10.2.1.x eller noe lignende (x skal være et nummer mellom 2 og 254)
 
 ## 5. Installering av programvare
 ```
