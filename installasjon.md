@@ -70,7 +70,7 @@ sudo mysql_secure_installation (Installerer mysql på pi-en)
 
 * Skriv `sudo apt install ./code` og trykk tab, så enter
 
-## 8. Slutten av guiden
+## 8. Slutten av OS installasjon
 
 * Kjør `sudo apt update` og `sudo apt upgrade` igjen
 
@@ -80,9 +80,14 @@ For å koble til med ssh fra laptop til pi-en skriver du i terminalen:
 
 (Bytt ut brukernavn med ditt eget brukernavn og ip med raspberry pi-en sin ip adresse)
 
-Hvis du vil skru av Pi-en, skriv `sudo shutdown now`i terminalen og vent et par sekunder før du tar strømmen.
+## 9. Oppsett av telefonkatalog database
 
-## 9. Ekstra
+# W.I.P!
+
+
+## 10. Ekstra
+
+Hvis du vil skru av Pi-en, skriv `sudo shutdown now`i terminalen og vent et par sekunder før du tar strømmen.
 
 Vanlige shell-kommandoer:
 
